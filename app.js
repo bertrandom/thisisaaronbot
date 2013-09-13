@@ -36,7 +36,7 @@ m.seed(s, function () {
 
 		return line;
 
-	}
+	};
 
 	var maxLength1 = Math.floor(Math.random()*(98-38+1)+38);
 	var maxLength2 = 140 - 3 - maxLength1;
