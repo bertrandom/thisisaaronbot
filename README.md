@@ -1,6 +1,6 @@
-# twitter bot markov chain of @thisisaaronland
+## twitter bot markov chain of @thisisaaronland
 
-## Seed data
+### Seed data
 
 Tweets are extracted using the t twitter client:
 
@@ -14,7 +14,7 @@ Then we parse to get the raw tweets, removing quotes:
 
 	node parse > seed.txt
 
-## Installation
+### Installation
 
 Create a file called secrets.json with the Twitter credentials:
 
