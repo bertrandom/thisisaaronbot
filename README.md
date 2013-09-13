@@ -1,5 +1,7 @@
 ## twitter bot markov chain of @thisisaaronland
 
+[https://twitter.com/thisisaaronbot](https://twitter.com/thisisaaronbot)
+
 ### Seed data
 
 Tweets are extracted using the t twitter client:
