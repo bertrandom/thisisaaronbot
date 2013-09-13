@@ -16,6 +16,10 @@ Then we parse to get the raw tweets, removing quotes:
 
 ### Installation
 
+Install libraries
+
+	npm install
+
 Create a file called secrets.json with the Twitter credentials:
 
 	{
