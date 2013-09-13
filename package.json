@@ -1,0 +1,7 @@
+{
+	"name": "thisisaaronbot",
+	"dependencies": {
+		"markov": "*",
+		"twitter": "*"
+	}
+}
