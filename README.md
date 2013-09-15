@@ -31,6 +31,6 @@ Create a file called secrets.json with the Twitter credentials:
 	    "access_token_secret": "xxx"
 	}
 	
-Cronjob runs once an hour:
+Cronjob runs every six hours:
 
-	0 * * * * /usr/bin/node /var/www/thisisaaronbot/app.js >> /var/www/thisisaaronbot/tweets.log 2>&1
+	0 0,6,12,18 * * * /usr/bin/node /var/www/thisisaaronbot/app.js >> /var/www/thisisaaronbot/tweets.log 2>&1
